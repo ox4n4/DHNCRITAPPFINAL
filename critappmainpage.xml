@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><title level="m">A Christmas Carol</title></title>
+                <title type="sub">Introduction - Table of Contents</title>
+                <author>
+                    <persName>Arunasva Bhuyan, Cameron Cadogan,Oxana Pilenko, Sahil Thorul, Talya Vuruskaner</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <availability>
+                    <ab>Attribution-Noncommercial-ShareAlike 4.0 International</ab>
+                </availability>
+                <date when="2019-12-02"></date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title><title level="m">A Christmas Carol: Introduction Table of Contents</title></title>
+                        <imprint>
+                            <publisher>OttawaU</publisher>
+                            <pubPlace>Ottawa, Ontario</pubPlace>
+                            <date>December 2, 2019</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Table of Contents</head>
+            <lb/>
+            <p><ref target="je_criticalapparatus.xml">An Introduction to <title level="m">A Christmas Carol</title></ref></p>
+            <p><ref target="je_critial_liu.xml">Historical Background of <title level="m">A Christmas Carol</title></ref></p>
+            <p><ref target="je_education_dehal.xml">Economic Situation in the Victorian Era</ref></p>
+            <p><ref target="introduction.vicotrian%20womanje_adeli.xml">Charles Dickens Biography</ref></p>
+            
+        </body>
+    </text>
+</TEI>
