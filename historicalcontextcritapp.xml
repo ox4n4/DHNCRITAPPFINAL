@@ -1,2 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Historical Context of <title level="m">A Christmas Carol</title></title>
+            </titleStmt>
+            <publicationStmt>
+                <ab>Encoding<ref target="http://creativecommons.org/licenses/by/4.0">CC-BY=4.0</ref></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl></bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            
+        </front>
+        <body>
+            <p>A Christmas Carol was written in 1843, during a time of the declining popularity of the old Christmas traditions. By the early 19th C, 
+                there was little left of the old celebration as Puritan influence took over the pagan traditions of the past.The tradition began in A.D.
+                601, when Pope Gregory instructed his missionary, St. Augustin of Canterbury, to convert the Anglo Saxons and to transform their local 
+                winter feast into a Christian festival. This conversion repurposed of the original pagan customs of Roman Saturnalia, Yule 
+                (the Saxon feast for the return of the sun in honour of god Thor), and of the Druid holiday
+            </p>
+            <p> In many ways, the Christmas traditions as we know it now were initially popularized by A Christmas Carol.In its current manifestation, 
+                Christmas is based on the idea of giving, of receiving, of looking out for the less fortunate, and of feasting with friends and family.
+                The symbolism of transformation that Dickens embraces in his novel echoes the process of how Christmas became a traditional holiday in 
+                England. In fact, many credit this book for reviving the celebration of Christmas in much of the English-speaking world. 
+            </p>
+            <p>Charles Dickens plays with the theme of transformation A Christmas Carol as a way of embodying and reflecting upon those societal changes
+                shows his dismay at the extreme poverty faced by the working poor living in precarious conditions and struggling to survive. 
+                The story of A Christmas Carol can be seen as embodying the harsh realities of the Victorian Britain during the 
+                shift to industiralization while embracing the idea of possibility for a change through the spirit of tradition.</p>
+        </body>
+        <back>
+            
+            <div type="editorial"></div>
+            
+            <div><bibl>Works Cited<lb/><author>Bronte, Charoltte</author>.<title level="m"> Jane Eyre</title>.<pubPlace> New York:</pubPlace><publisher> Oxford University Press</publisher>,<date> 2008</date>.  print. </bibl></div>
+            <div><bibl><lb/><author> Marcus, Sharon.</author><title> Between Women : Friendship, Desire, and Marriage in Victorian England.</title><pubPlace>  Princeton:</pubPlace><publisher> Princeton UP,</publisher><date> 2007.</date> Print.</bibl></div>
+            <div> <bibl><lb/><lb/><author> Morgan, Simon.</author><title> A Victorian Woman's Place : Public Culture in the Nineteenth Century.</title><pubPlace>  London: New York :</pubPlace><publisher> Tauris Academic Studies,</publisher><date> 2007.</date> Print.</bibl></div>
+            
+        </back>
+    </text>
+</TEI>
