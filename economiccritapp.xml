@@ -1,2 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title>Economic Situation in the Industrialized Victorian Britain: Workhouses, Child Labour, And Dickens</title>
+            </titleStmt>
+            <publicationStmt>
+                <ab>Endcocding<ref target="https://creativecommons.org/licenses/by/4.0/">CC-BY=4.0</ref>></ab> 
+            </publicationStmt>
+            <sourceDesc><bibl></bibl>
+            </sourceDesc></fileDesc>
+        
+    </teiHeader>
+    <text><figure>
+        <graphic url="https://blogs.baylor.edu/britlit/files/2015/04/6436854f64c48ebd5e7323eabb741aa82929e62ed55e7d65732bc9a22ca98a72-2bkghm9.jpg"></graphic>
+        <head></head>
+    </figure>
+        
+        
+        
+        
+        <body>
 
+            <p>  
+                A Christmas Carol was written in 1843, during a time of Industrial Revolution was taking place. The economy shifted from agriculture 
+                to industry and trade, money made from industry only widened the gap between the poor and the rich. 
+                Children that came from the lower-class families didn’t go to school, and toiled at the workhouses alongside 
+                adults for long hours at a low wage to help support their families who barely had enough money to buy food. 
+                In the poorer areas of Britain's larger cities almost 1 in 5 children born in the 1830s and 40s had died by the age of five. 
+                The main causes of death were polluted drinking water, damp and tuberculosis, which claimed between 60,000 and 70,000 lives in each 
+                decade of Queen Victoria's reign.
+                For those not able to support themselves, there were the workhouses. Men, women and families were separated and those who were 
+                physically able were expected to work for their keep. Those who could not pay their debts were sent to debtors' prisons such as 
+                Marshalsea, where Charles Dickens' father spent time.
+                
+                During this period a small number of people became very wealthy and they lived in luxury with large houses, plenty of money, 
+                food and clothes. Their children didn’t work and were educated. Being seen to be civilised and adhering to a strict set of 
+                morals was important to high society in the Victorian age. </p>
+               
+               
+            <p> Charles Dickens was struggling as a serial author for a newspaper. Dickens wrote A 
+                Christmas Carol with the intention of drawing his readers' attention to the plight of England's poor. Social criticism is a recurring theme 
+                in Dickens' work. He uses his novels and his characters to give a voice to those who lack a platform, thus establishing a link between politics 
+                and literature. He creates a fictional world that mirrors the truths of the real word to attack the defects of existing institutions. 
+                Therefore, Charles Dickens’s novels played a tremendous role in the implementation of policies that changed the lives of the poor. Dickens’s 
+                active involvement to promote social reforms raised public awareness in the fight against poverty, deprivation of education, and child labour. 
+                In the novel, Dickens combines a slightly indirect description of the hardships faced by the poor with a heart-rending, sentimental celebration 
+                of the Christmas season. Ebenezer Scrooge is an apathetic penny-pinching, calloused character, who opens his heart after being confronted by three spirits. He remains one of Dickens’ most widely recognized and popular characters.  
+                A major theme in A Christmas Carol comes from depicting the juxtaposition of the different socio-economic classes. With this stark contrast in the embodiment of the ghost that haunts the unfeeling Scrooge, Dickens shows the fragility and elusiveness between the poor and the rich. 
+            </p>
+                <p>
+                Victorian London factories
+                The factories in Victorian times were set up in towns which have augmented into modern day cities. The use of steam-powered machinery 
+                further led to the expansion of factories. With a number of factories coming up, people migrated from the countryside to these towns in 
+                hope of finding a job in these factories. Manchester also known as Cottonopolis was the first industrial city. As the years passed, a large number of people flocked to the cities in search for jobs which resulted in the cities getting over-
+                populated. Despite the industrial growth, cities like London were not equipped to handle such a large population. Those who could not 
+                afford a better accommodation stayed in lodging houses while those who were in a position to spend more were rented rooms to stay in.
+            </p>
+            <p>
+                Working Conditions in The Victorian Era - Child labourWorking Conditions in The Victorian Era – Child labour
+                The living conditions were so bad that the whole family had to stay in one room and at times two families were adjusted in a room. 
+                The changes can be attributed to the invention of machinery which drastically reduced the human labor. During the 19th century, production 
+                was primarily carried on in small mills that were water-powered. Robert Owen was a reformer who made efforts to improve the conditions for
+                the workers.
+                The growth of factories indeed brought employment for some but it snatched away the earnings of those who were unskilled workers. During the Victorian period, families were large, mostly consisting of three generations staying together where only the men worked. Under such conditions, it was very difficult to sustain on very low wages.
+            </p>
+            <p>
+                Children’s working conditions in the industrial revolution
+                The parents thus were forced to send their children to work in factories and mines so that they can support their over burdened parents.
+                The children were exploited for the cheap labor they provided. Many justified the engaging of children in factories by saying that they 
+                are helping the poor families to earn some extra money for their living.
+            </p>
+            <p>
+                Child labour in The Victorian EraChild labour in The Victorian Era
+                The children were made to work for long hours like adults and the working conditions in the factories were pathetic with no room for 
+                ventilation. Children worked in textile mills, mines and chemical factories which were hazardous for these children who were exposed to 
+                a number of diseases. The factories were poorly lit. Candles were used to give the light source. Often these candles proved to be 
+                dangerous as they caused many of the fires. The machinery used in the factories was the peril for accidents as the workers using 
+                them were not skilled enough. The industrial revolution indeed led to the emergence of factories and improved the standard of living 
+                of many people but, it also exposed the Victorian society to the social evils like Child labor which were eradicated after many years 
+                of struggle. Victorian child labour is a fact which can not be denied.
+            </p> 
+
+            
+            
+            
+        </body>
+        <back> 
+
+        </back>
+    </text>
+</TEI>
