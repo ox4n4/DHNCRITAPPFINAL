@@ -1,2 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                    Charles Dickens - Brief Bio 
+            </titleStmt>
+            <publicationStmt>
+                <ab></ab>  
+            </publicationStmt>
+            <sourceDesc>
+                <bibl></bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <p> Charles Dickens - Brief Biography</p>
+        </front>
+        <body>
+            
+        <p> Charles Dickens was born on February 7, 1812, and spent the first nine years of his life living in the coastal regions of Kent, 
+            a county in southeast England after which point the family moved to London. A few years later, Dickens’ father was arrested and 
+            was sent to debtor’s prison for being financially irresponsible and piling up tremendous debts throughout his life. Dickens' mother 
+            moved seven of their children into prison with their father and Dickens was arranged to work with other child labourers. It was a 
+            hellish job that involved pasting labels on bottles in a blacking warehouse. </p>
+         <p>The juxtaposition of the classes in A Christmas Carol is a direct reflection of Dickens’ experience with poverty as a child working 
+            at a workhouse in the Victorian England after Industrialization. and Dickens’ transition to a better life upon escaping the precariousness 
+            of his childhood. During the months apart that Dickens spent away from his family working alongside other child labourers, he was extremely
+            miserable and considered himself too good for it. </p>
+          <p>After his father was released from prison, Dickens returned to school and eventually became
+            a law clerk. He went on to serve as a court reporter before taking his place as one of the most popular English novelists of his time.
+            At age 25, Dickens completed his first novel, The Pickwick Papers, which met with great success. The masterpieces that Dickens produced such as 
+            Great Expectations, A Tale of Two Cities, and later A Christmas Carol granted him the status of an English novel celebrity.
+         </p>
+         <p>Charles Dickens embodies the character of Scrooge, both before an after the transformation. Dickens empathises with the poor, yet
+            struggles to let go of his childhood traumas. These traumas made him resentful towards Christmas traditions, as he does not care to indulge 
+            his family. Although he was haunted by the thought of repeating his father’s mistakes with financial responsibilities, he is still as cold 
+            and uncaring towards his family as his own father once was to him. 
+        </p>    
+            
+        </body>
+        <back>
+            <div><bibl>
+                <lb/> 
+            </bibl></div>
+            
 
+        </back>
+    </text>
+</TEI>
