@@ -2,59 +2,129 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
 <TEI xmlns:html="http://www.w3.org/1999/xhtml" 
-    xmlns="http://www.tei-c.org/ns/1.0" >
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                    Charles Dickens - Brief Bio 
-            </titleStmt>
-            <publicationStmt>
-                <ab></ab>  
-            </publicationStmt>
-            <sourceDesc>
-                <bibl></bibl>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <front>
-            <p> Charles Dickens - Brief Biography</p>
-        </front>
-        <body>
-            
-        <p> Charles Dickens (Charles John Huffam Dickens) was born in Landport, Portsmouth, on February 7, 1812. 
-            Charles was the second oldest of eight children, who were born to their father, John Dickens (1786-1851) and their mother, Elizabeth Dickens (1789-1863). 
-            Charles Dickens' father was a clerk in the Navy Pay office, which allowed his family to live a financially comfortable life.
-                  
-        <p> The Dickens family spent nine years living on the coastal regions of Kent, a county in southeast England. 
-            In 1822, the family moved to London. 
-            A few years later, Dickens’ father was arrested and 
-            was sent to debtor’s prison for being financially irresponsible. He pilled up tremendous debts throughout his life. 
-            Dickens' mother 
-            moved seven of their children into prison with their father and Dickens was arranged to work with other child labourers. It was a 
-            hellish job that involved pasting labels on bottles in a blacking warehouse. </p>
-         <p>The juxtaposition of the classes in A Christmas Carol is a direct reflection of Dickens’ experience with poverty as a child working 
-            at a workhouse in the Victorian England after Industrialization. and Dickens’ transition to a better life upon escaping the precariousness 
-            of his childhood. During the months apart that Dickens spent away from his family working alongside other child labourers, he was extremely
-            miserable and considered himself too good for it. </p>
-          <p>After his father was released from prison, Dickens returned to school and eventually became
-            a law clerk. He went on to serve as a court reporter before taking his place as one of the most popular English novelists of his time.
-            At age 25, Dickens completed his first novel, The Pickwick Papers, which met with great success. The masterpieces that Dickens produced such as 
-            Great Expectations, A Tale of Two Cities, and later A Christmas Carol granted him the status of an English novel celebrity.
-         </p>
-         <p>Charles Dickens embodies the character of Scrooge, both before an after the transformation. Dickens empathises with the poor, yet
-            struggles to let go of his childhood traumas. These traumas made him resentful towards Christmas traditions, as he does not care to indulge 
-            his family. Although he was haunted by the thought of repeating his father’s mistakes with financial responsibilities, he is still as cold 
-            and uncaring towards his family as his own father once was to him. 
-        </p>    
-            
-        </body>
-        <back>
-            <div><bibl>
-                <lb/> 
-            </bibl></div>
-            
+  xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+        Charles Dickens - Brief Bio 
+        </title>
+        <author>
+          <persName>Arunasva Bhuyan</persName>
+          <persName>Cameron Cadogan</persName>
+          <persName>Oksana Moroko</persName>
+          <persName>Sahil Thorul</persName>
+          <persName>Talya Vuruskaner</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab></ab>  
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="Article" source="Oxford Dictionary of National Biography">
+          <title>
+            Dickens, Charles John Huffam (1812–1870), novelist
+          </title>
+          <author>
+            Michael Slater
+          </author>
+          <date>2014, September 25</date>
+          <note>
+            https://www-oxforddnb-com.proxy.bib.uottawa.ca/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-7599
+          </note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <p> Charles Dickens - Brief Biography</p>
+    </front>
+    <body>
+      
+      <p>
+        <persName>Charles Dickens</persName> (Charles John Huffam Dickens) was born in 
+        <placeName>13 Mile End Terrace, Portsea, Portsmouth</placeName>, on <date>February 7, 1812</date>. 
+        Charles was the second oldest of eight children, who were born to their father, 
+        <persName>John Dickens</persName> (<date>1786-1851</date>) 
+        and their mother, <persName>Elizabeth Dickens</persName> (<date>1789-1863</date>). 
+        Charles Dickens' father was a clerk in the Navy Pay office, 
+        which allowed his family to have a financially comfortable life.
+        The Dickens family spent nine years living on the coastal regions of Kent, a county in southeast England.
+      </p>
+      
+      <p> 
+        Unfortunately, life would drastically change for the young <persName>Charles Dickens</persName>. 
+        His father was financially irresponsible and pilled up tremendous debts throughout his life. 
+        His father's financial situation continued to deteriorate. 
+        On <date>February 20th, 1824</date> (when Charles Dickens was 12), 
+        <persName>Dickens’ father</persName> was arrested and was sent to  <placeName>Marshalsea debtors' prison</placeName>. 
+        Soon enough, Dickens' father was joined by his wife and their younger children. Despite being an avid reader 
+        and a promising pupil, Dickens could no longer stay in school. Dickens was forced to
+        work with other child laborers. It was a hellish job that involved pasting labels on blacking bottles for 6s a week 
+        in a blacking warehouse. </p>
+      
+      <p>
+        These experiences greatly traumatized Charles Dickens. His firsthand experience made him an influential 
+        voice for the working class. He actively strived to raise the public's awareness in the fight against 
+        poverty, deprivation of education and child labour. 
+        In his autobiography, he wrote: 
+      </p>
 
-        </back>
-    </text>
+      <quote>
+         No words can express the secret agony of my soul as I sunk into this companionship 
+        [of ‘common men and boys’] … and felt my early hopes of growing up to be a learned and distinguished man,
+        crushed in my breast. The deep remembrance of the sense I had of being utterly neglected and hopeless; 
+        of the shame I felt in my position; of the misery it was to my young heart to believe that, day by day, 
+        what I had learned, and thought, and delighted in, and raised my fancy and my emulation up by, 
+        was passing away from me, never to be brought back any more; cannot be written.
+      </quote>  
+      <bibl>
+        <title>
+          The Life of Charles Dickens
+        </title>
+        <author>
+          <persName>John Forster</persName>
+        </author>
+        <date>1872</date>
+      </bibl>
+      
+      <p>
+        The juxtaposition of between economic classes in 
+        A Christmas Carol is a direct reflection of Dickens’ experience with poverty as a child working at a workhouse.    
+      </p>
+      
+      <p>
+        After his father was released from prison, Dickens returned to school and eventually became
+        a law clerk. He went on to serve as a reporter in the courts. Eventually, he worked as 
+        as a parliamentary and newspaper reporter.
+      </p>
+      
+      <p>
+        In <date>1833</date>, Dickens began his career as novelist. He began publishing short, 
+        continous stories periodically. He continued publishing novels to eventually take his place as one of the most popular 
+        English novelists of his time. At age 25, Dickens completed his first novel, The Pickwick Papers, 
+        which met with great success. He become one of England's most famed and cherised novelist from masterpieces
+        such as Great Expectations, A Tale of Two Cities, and later A Christmas Carol. 
+      </p>
+      
+      <p>
+        In <date>April of 1836</date>, he married Catherine Hogarth. Together, they had 10 children. 
+        Despite, a happy start to their marriage, they eventually divorced in <date>June of 1858</date>. 
+        Charles Dickens died at his house on <date>June 9, 1870</date> from a stroke. 
+      </p>    
+        
+    </body>
+    <back>
+      <div>
+        <bibl>
+          Slater, Michael. "Dickens, Charles John Huffam (1812–1870), novelist."
+          Oxford Dictionary of National Biography. September 25, 2014. Oxford University Press. 
+          https://www-oxforddnb-com.proxy.bib.uottawa.ca/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-7599
+        </bibl>
+      </div>
+      
+      
+    </back>
+  </text>
 </TEI>
